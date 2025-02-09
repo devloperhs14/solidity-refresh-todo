@@ -1,6 +1,4 @@
-# solidity-refresh-todo
-
-# Todos Smart Contract
+# Todos Smart Contract (CLI)
 
 - This repository contains a simple Todos smart contract written in Solidity. 
 - The contract allows users to create, update, and delete todo items. 
