@@ -63,16 +63,18 @@ git clone https://github.com/devloperhs14/solidity-todo.git
 cd todos
 ```
 
-2. Install dependencies:
+2. Install Foundary:
 
 ```sh
-npm install
+curl -fsSL https://foundry.paradigm.xyz | bash
+source ~/.bashrc
+foundryup
 ```
 
-3. Install Foundry:
+3. Check Foundry:
 
 ```sh
-forge install
+forge --version
 ```
 
 ### Usage
@@ -82,7 +84,8 @@ forge install
 To compile the smart contracts, run:
 
 ```sh
-forge build
+forge init --force todos
+forge compile
 ```
 
 #### Run Tests
